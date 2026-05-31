@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { Mail } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -43,7 +44,7 @@ export default function Hero() {
 
         </div>
 
-        <div className="flex justify-center gap-6 mt-10 text-3xl">
+        <div className="flex justify-evenly gap-6 mt-10 text-3xl">
 
           <a
             href="https://github.com/mudassir-jmi"
@@ -65,6 +66,12 @@ export default function Hero() {
           >
             <FaXTwitter />
           </a>
+
+          <a
+  href="mailto:mudassir7991@gmail.com"
+>
+  <Mail />
+</a>
 
         </div>
 

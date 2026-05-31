@@ -27,7 +27,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="px-6"
+      className="pt-5 px-6"
     >
       <div className="max-w-5xl mx-auto">
 

@@ -32,6 +32,7 @@ export default function ThemeToggle() {
         p-2
         text-zinc-900
         dark:text-white
+        cursor-pointer
       "
     >
       {theme === "dark" ? (
