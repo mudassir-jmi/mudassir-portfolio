@@ -1,3 +1,5 @@
+import ThemeToggle from "./ThemeToggle";
+
 const links = [
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
@@ -28,6 +30,7 @@ export default function Navbar() {
             ))}
           </div>
 
+         <ThemeToggle />
         </div>
       </nav>
     </header>
