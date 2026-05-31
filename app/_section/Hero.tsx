@@ -33,11 +33,11 @@ export default function Hero() {
 
         <div className="mt-10 flex justify-center gap-4 flex-wrap">
 
-          <button className="px-6 py-3 rounded-xl bg-black text-white hover:scale-105 transition">
+          <button className="px-6 py-3 rounded-xl bg-black text-white hover:scale-105 transition cursor-pointer">
             View Projects
           </button>
 
-          <button className="px-6 py-3 rounded-xl border hover:bg-zinc-100 transition">
+          <button className="px-6 py-3 rounded-xl border hover:scale-105 transition cursor-pointer">
             Download Resume
           </button>
 

@@ -15,7 +15,7 @@ export default function ThemeToggle() {
             : "dark"
         )
       }
-      className="border rounded-lg p-2"
+      className="border rounded-lg p-2 cursor-pointer"
     >
       {theme === "dark" ? (
         <Sun size={18} />
