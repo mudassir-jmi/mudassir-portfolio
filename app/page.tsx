@@ -1,17 +1,18 @@
-import Navbar from "./_section/Navbar";
-import Hero from "./_section/Hero";
-import About from "./_section/About";
-import Skills from "./_section/Skills";
-import Experience from "./_section/Experience";
-import Projects from "./_section/Projects";
-import Education from "./_section/Education";
-import Footer from "./_section/Footer";
-import Contact  from "./_section/Contact";
+import Hero from "./components/hero"
+import Navbar from "./components/navbar";
+import About from "./components/about";
+import Skills from "./components/skills";
+import Experience from "./components/experience";
+import Projects from "./components/projects";
+import Education from "./components/education";
+import Certifications from "./components/certifications";
+import Contact from "./components/contact";
 
 export default function Home() {
   return (
     <>
-    <Navbar />
+      <Navbar />
+
       <main>
         <Hero />
         <About />
@@ -19,9 +20,9 @@ export default function Home() {
         <Experience />
         <Projects />
         <Education />
+        <Certifications />
         <Contact />
       </main>
-      <Footer />
     </>
   );
 }
